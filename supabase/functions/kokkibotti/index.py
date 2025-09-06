@@ -1,3 +1,4 @@
+#API-avain lisätty holviin
 # Versio 2
 import os
 from openai import OpenAI
