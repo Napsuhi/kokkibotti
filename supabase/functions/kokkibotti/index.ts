@@ -4,7 +4,7 @@ import OpenAI from 'npm:openai'
 
 // Alustetaan OpenAI-asiakas. Se hakee avaimen automaattisesti Supabasen Secret-holvista.
 const client = new OpenAI({
-  apiKey: "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",
+  apiKey: Deno.env.get('OPENAI_API_KEY'),
 })
 
 const corsHeaders = {
